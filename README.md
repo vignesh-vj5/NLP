@@ -6,7 +6,7 @@ If you have Python ready on your PC and prefers to skip the description, just in
 
 
 
-##Prerequisites to make this work.
+## Prerequisites to make this work.
 1. Install Python on your PC.
       - I suggest you to install Anaconda Navigator on your PC since we will dive-in later to wire-up neural network models             where-as working with jupyter notebook for evaluating the network-model performance will be like bread-and-butter from         my point of view. Also there won't be any dependency issues which might feel annoying when trying to mess with the             codes.
 2. Open up the terminal and hit the following:
@@ -20,6 +20,6 @@ If you have Python ready on your PC and prefers to skip the description, just in
                 
       * `pip install streamlit`
                 * Streamlit is an open-source Python library that makes it easy to build beautiful apps for machine learning.
-                  Once you install just locate to the project directory and run `streamlit <<filename.py>>` via terminal. Local URL and Network URL will be generated. Copy either of the address and run it via your desired browser.
+                  Once you install just locate to the project directory and run `streamlit run <<filename.py>>` via terminal. Local URL and Network URL will be generated. Copy either of the address and run it via your desired browser.
 
       * **N.B.** For composing the streamlit script, I employed Sublime Text for editing convenience. You can use your favourite one. Also Usage of Anaconda Navigator ensures that you don't face any dependency crashes since installations that you make via pip will be in the conda environment. To make sure you are on the conda environment just look-out for **(base)** in the terminal before the username. If it is not there, hit `conda activate` if you are using Anaconda prompt.
